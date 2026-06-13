@@ -1,6 +1,4 @@
-/* =========================
-   GOOGLE FONT RESET
-========================= */
+/*GOOGLE FONT RESET*/
 
 * {
     margin: 0;
@@ -19,9 +17,7 @@ body {
     line-height: 1.6;
 }
 
-/* =========================
-   COLORS
-========================= */
+/*COLORS*/
 
 :root {
     --cream: #FDF6EC;
@@ -31,9 +27,7 @@ body {
     --white: #FFFFFF;
 }
 
-/* =========================
-   NAVBAR
-========================= */
+/*NAVBAR*/
 
 .header {
     position: sticky;
@@ -86,9 +80,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* =========================
-   HERO
-========================= */
+/*HERO*/
 
 .hero {
     min-height: 90vh;
@@ -161,9 +153,7 @@ body {
     box-shadow: 0 20px 40px rgba(0, 0, 0, .08);
 }
 
-/* =========================
-   SECTIONS
-========================= */
+/*SECTIONS*/
 
 section {
     padding: 90px 8%;
@@ -183,9 +173,7 @@ section {
     color: #777;
 }
 
-/* =========================
-   PRODUCTS
-========================= */
+/*PRODUCTS*/
 
 .product-grid {
     display: grid;
@@ -220,9 +208,7 @@ section {
     color: #666;
 }
 
-/* =========================
-   FEATURES
-========================= */
+/*FEATURES*/
 
 .features {
     background: white;
@@ -245,9 +231,7 @@ section {
     margin-bottom: 15px;
 }
 
-/* =========================
-   ABOUT
-========================= */
+/*ABOUT*/
 
 .about {
     display: grid;
@@ -270,9 +254,7 @@ section {
     margin-bottom: 15px;
 }
 
-/* =========================
-   TESTIMONIAL
-========================= */
+/*TESTIMONIAL*/
 
 .testimonial-grid {
     display: grid;
@@ -291,9 +273,7 @@ section {
     margin-top: 15px;
 }
 
-/* =========================
-   FAQ
-========================= */
+/*FAQ*/
 
 .faq-container {
     max-width: 900px;
@@ -311,9 +291,7 @@ section {
     margin-bottom: 10px;
 }
 
-/* =========================
-   CONTACT
-========================= */
+/*CONTACT*/
 
 .contact-box {
     background: white;
@@ -329,9 +307,7 @@ section {
     margin-bottom: 10px;
 }
 
-/* =========================
-   FOOTER
-========================= */
+/*FOOTER*/
 
 footer {
     background: var(--dark-brown);
@@ -345,9 +321,7 @@ footer h3 {
 }
 
 
-/* =========================
-   HAMBURGER
-========================= */
+/*HAMBURGER*/
 
 .menu-toggle {
     display: none;
@@ -357,9 +331,7 @@ footer h3 {
 }
 
 
-/* =========================
-   TABLET
-========================= */
+/*TABLET*/
 
 @media(max-width:1024px) {
 
@@ -389,9 +361,7 @@ footer h3 {
 
 }
 
-/* =========================
-   MOBILE
-========================= */
+/*MOBILE*/
 
 @media screen and (max-width:768px) {
 

@@ -1,5 +1,3 @@
-// Smooth feedback button
-
 const buttons = document.querySelectorAll(
     ".btn-primary, .btn-secondary, .btn-nav"
 );
@@ -18,7 +16,6 @@ buttons.forEach(button => {
 
 });
 
-// Navbar shadow saat scroll
 
 window.addEventListener("scroll", () => {
 
@@ -34,8 +31,6 @@ window.addEventListener("scroll", () => {
 
 });
 
-
-// Hamburger Menu
 
 const menuToggle =
     document.querySelector(".menu-toggle");
